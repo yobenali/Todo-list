@@ -3,8 +3,8 @@ import { Task, UpdateTask } from './types';
 
 const API_URL = 'http://localhost:5000/tasks';
 
-export const fetchTasks = async (): Promise<Task[]> => {
-  const response = await axios.get(API_URL);
+export const fetchTasks = async (userId: string): Promise<Task[]> => {
+  const response = await axios.get(`${API_URL}?userId=${userId}`);
   return response.data;
 };
 

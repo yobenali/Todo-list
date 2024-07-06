@@ -75,6 +75,7 @@ ul {
   padding: 0;
 }
 
+
 .task-item {
   margin-bottom: 10px;
   padding: 10px;
@@ -112,6 +113,29 @@ ul {
   margin-right: 10px;
 }
 
+.Gsign {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.Gsign:hover {
+  background-color: #8694a8;
+}
+
+.Gsign:active {
+  background-color: #3386f1;
+}
+.google-logo {
+  margin-bottom: -6px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
 .task-item form button {
   padding: 5px 10px;
   border: none;
